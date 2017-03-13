@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+﻿git init ----------------gitis sheqmna
 
-You can use the [editor on GitHub](https://github.com/GIGA-LFC/Learn_Web_Development/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+sudo apt-get install git-core git-gui git-doc------------dayeneba
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+git clone git@github.com:username/projectname.git-------------gitis klonireba saitidan kompiutershi
 
-### Markdown
+git config --global user.name "Your Name"------------ avtorizacia
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+git config --global user.email "your@email.com"-------------avtorizacia
 
-```markdown
-Syntax highlighted code block
+git status -----------------   statusis shemowmeba tu ra moxda bolo ganaxslebis mere
 
-# Header 1
-## Header 2
-### Header 3
+git add new_or_existing_file.c------------failis damateba
 
-- Bulleted
-- List
+git commit/git commit -m "komentari"---------------cvlilebis gaketeba komentari
 
-1. Numbered
-2. List
+git add . /git add --all/git add * ---------------- roca cvlilebas movaxdent add it vamatebt mas da virchev tu romeli cvileba davamatot
 
-**Bold** and _Italic_ and `Code` text
+git push (origin master) / git pull--------- saitze atvirtva informaciis/chamotvirtva saitidan
 
-[Link](url) and ![Image](src)
-```
+git branch ------------ brenchis shemowmeba
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+git branch BranchName1 -------------- sheiqmneba am saxelis brenchi ukve tu ar arsebobs, tu arsebobs masze gadava
 
-### Jekyll Themes
+git branch -d BranchName1 --------------- waishleba am saxelis mqone branchi tu arsebobs
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GIGA-LFC/Learn_Web_Development/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+git checkout master ------------ master branchze gadasvla
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+git merge (branch) --------- mimdinare branchsi chaakopirebs im branchis monacemebs romel branchsac merge-s mere davwert
